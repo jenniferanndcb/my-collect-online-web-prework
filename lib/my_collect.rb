@@ -1,5 +1,5 @@
 def my_collect (arr)
-  arr2 = [ ]
+  arr2 = []
   i = 0 
   while i < arr.length 
     arr2 << yield (arr[i])
